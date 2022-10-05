@@ -20,7 +20,7 @@
             </div>
             <div class="user-box">
                 <input type="password" name="password1" required="">
-                <label for="">Password</label>
+                <label for="">Again</label>
             </div>
             <div class="button-form">
                 <button id="submit">Submit</button>
