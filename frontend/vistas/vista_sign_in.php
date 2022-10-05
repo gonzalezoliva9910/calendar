@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 
-<body class="bg-dark">
+<body style="background: #242026;">
 
     <div class="login-box">
         <h2>Sign In</h2>
@@ -24,7 +24,7 @@
                 <button id="submit">Submit</button>
                 <div id="register">
                     Don't have an acconunt ?
-                    <a href="#">Register</a>
+                    <a href="./vista_sign_up.php">Register</a>
                 </div>
 
             </div>

@@ -1,4 +1,4 @@
-@import url();
+@import url('https://font.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 
 :root {
     --font-style: 'ninito Sans', sans-serif;
@@ -9,7 +9,6 @@
 }
 
 body {
-    background : #131315;
     font-family: var(--font-style);
 }
 
@@ -22,13 +21,15 @@ body {
     padding      : 40px;
     transform    : translate(-50%, -50%);
     background   : #242026;
-    box-shadow   : 0, 15px, 25px, rgb(143, 124, 236, 0.7);
+    box-shadow   : 0 15px 25px  #80ec7c;
     border-radius: 10px;
 }
+
 #login-box {
     height: auto;
 }
-.user-box{
+
+.user-box {
     height: 120px;
 }
 
@@ -78,16 +79,17 @@ body {
     padding         : 10px 20px;
     color           : #cbbddb;
     background-color: #242026;
-    font-size      : 16px;
-    text-decoration: none;
-    text-transform : uppercase;
-    overflow       : hidden;
-    transition     : .5s;
-    letter-spacing : 4px;
-    border         : 1px solid #80ec7c;
-    margin         : auto;
+    font-size       : 16px;
+    text-decoration : none;
+    text-transform  : uppercase;
+    overflow        : hidden;
+    transition      : .5s;
+    letter-spacing  : 4px;
+    border          : 1px solid #80ec7c;
+    margin          : auto;
 }
-.aa{
+
+.aa {
     height: 420px;
 }
 
