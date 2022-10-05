@@ -1,0 +1,120 @@
+@import url();
+
+:root {
+    --font-style: 'ninito Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background : #131315;
+    font-family: var(--font-style);
+}
+
+.login-box {
+    position     : absolute;
+    top          : 50%;
+    left         : 50%;
+    width        : 400px;
+    height       : 400px;
+    padding      : 40px;
+    transform    : translate(-50%, -50%);
+    background   : #242026;
+    box-shadow   : 0, 15px, 25px, rgb(143, 124, 236, 0.7);
+    border-radius: 10px;
+}
+#login-box {
+    height: auto;
+}
+.user-box{
+    height: 120px;
+}
+
+.login-box h2 {
+    margin    : 0 0 70px;
+    padding   : 0;
+    color     : #fff;
+    text-align: center;
+
+}
+
+.login-box .user-box input {
+    position     : relative;
+    width        : 180px;
+    font-size    : 16px;
+    color        : #fff;
+    margin-bottom: 30px;
+    border       : none;
+    border-bottom: 1px solid #fff;
+    outline      : none;
+    background   : transparent;
+    display      : block;
+}
+
+
+.login-box .user-box label {
+    height        : 100;
+    position      : relative;
+    left          : 0%;
+    top           : -70px;
+    padding       : 10px 0;
+    font-size     : 16px;
+    color         : #fff;
+    pointer-events: none;
+    transition    : .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top      : -85px;
+    left     : 0%;
+    color    : #80ec7c;
+    font-size: 12px;
+}
+
+#submit {
+    padding         : 10px 20px;
+    color           : #cbbddb;
+    background-color: #242026;
+    font-size      : 16px;
+    text-decoration: none;
+    text-transform : uppercase;
+    overflow       : hidden;
+    transition     : .5s;
+    letter-spacing : 4px;
+    border         : 1px solid #80ec7c;
+    margin         : auto;
+}
+.aa{
+    height: 420px;
+}
+
+#submit:hover {
+    background   : #80ec7c;
+    color        : #fff;
+    border-radius: 5px;
+    box-shadow   : 0 0 5px #80ec7c, 0 0 25px #80ec7c, 0 0 50px #80ec7c, 0 0 100px #80ec7c;
+}
+
+.button-form {
+    display       : flex;
+    flex-direction: row;
+    margin-top    : 20px;
+}
+
+#register {
+    font-size      : 14px;
+    text-decoration: none;
+    color          : #cbbddb;
+    margin         : auto;
+    width          : 60%;
+    text-align     : center;
+}
+
+#register a {
+    margin         : auto;
+    color          : #80ec7c;
+    text-decoration: none;
+}
