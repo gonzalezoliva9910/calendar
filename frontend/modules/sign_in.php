@@ -11,8 +11,6 @@ $result = post("http://localhost:88/Calendar/backend/v1/modules/auth/sign_in_api
 if ($result['code'] == 1) {
     header('location:../home.php');
 } elseif ($result['code'] == 3) {
-   
-    
    header("location:../vistas/vista_sign_in.php?fallo=true");
 }
    

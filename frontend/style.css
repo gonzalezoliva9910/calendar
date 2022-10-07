@@ -89,8 +89,8 @@ body {
     margin          : auto;
 }
 
-.aa {
-    height: 420px;
+.form{
+    height: auto !important;
 }
 
 #submit:hover {
@@ -120,3 +120,19 @@ body {
     color          : #80ec7c;
     text-decoration: none;
 }
+
+
+/* ******************************modal**************************************** */
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1 !important;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+  }
+  .modal-title{
+    color: #cbbddb !important;
+  }
