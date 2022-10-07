@@ -13,22 +13,10 @@ if ($password == $password1) {
     if ($result['code'] == 1) {
         header('location:../vistas/vista_sign_in.php');
     } elseif ($result['code'] == 3)
-    echo '<script language="javascript">alert("Ya existe una contraseña");</script>';
-
-    echo '<script language="javascript"> 
-setTimeout(function whait(){
-    location.replace("../vistas/vista_sign_up.php")
-},50)
-</script>';
+    header('location:../vistas/vista_sign_up.php?fallo=x');
 
     
 } else {
-    echo '<script language="javascript">alert("Las contraseñas no coinciden");</script>';
-
-    echo '<script language="javascript"> 
-setTimeout(function whait(){
-    location.replace("../vistas/vista_sign_up.php")
-},50)
-</script>';
+    header('location:../vistas/vista_sign_up.php?fallo=z');
 }
 
