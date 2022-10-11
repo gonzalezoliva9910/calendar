@@ -21,7 +21,7 @@ body {
     padding      : 40px;
     transform    : translate(-50%, -50%);
     background   : #242026;
-    box-shadow   : 0 15px 25px  #80ec7c;
+    box-shadow   : 0 15px 25px #80ec7c;
     border-radius: 10px;
 }
 
@@ -89,7 +89,7 @@ body {
     margin          : auto;
 }
 
-.form{
+.form {
     height: auto !important;
 }
 
@@ -125,14 +125,77 @@ body {
 /* ******************************modal**************************************** */
 
 .modal-backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1 !important;
-    width: 100vw;
-    height: 100vh;
+    position        : fixed;
+    top             : 0;
+    left            : 0;
+    z-index         : -1 !important;
+    width           : 100vw;
+    height          : 100vh;
     background-color: #000;
-  }
-  .modal-title{
-    color: #cbbddb !important;
-  }
+}
+
+#submit1 {
+    padding         : 10px 20px !important;
+    color           : #bb2d3b !important;
+    background-color: #242026 !important;
+    font-size       : 16px !important;
+    text-decoration : none !important;
+    text-transform  : uppercase !important;
+    overflow        : hidden !important;
+    transition      : .5s !important;
+    letter-spacing  : 4px !important;
+    border          : 1px solid#bb2d3b !important;
+    margin          : auto !important;
+}
+
+#submit1:hover {
+    background   : #bb2d3b !important;
+    color        : #fff !important;
+    border-radius: 5px !important;
+    box-shadow   : 0 0 5px #bb2d3b, 0 0 25px #bb2d3b, 0 0 50px #bb2d3b, 0 0 100px #bb2d3b !important;
+}
+
+.modal-dialog {
+    position     : absolute !important;
+    top          : 53% !important;
+    left         : 50% !important;
+    transform    : translate(-50%, -50%) !important;
+    background   : #242026 !important;
+    box-shadow   : 0 15px 25px #80ec7c !important;
+    border-radius: 10px !important;
+    width        : 350px !important;
+}
+
+.modal-title {
+    color     : #fff !important;
+    text-align: center !important;
+
+
+}
+
+.modal-body {
+    color           : #fff !important;
+    background-color: #242026 !important;
+    border-color    : #242026 !important;
+    height          : 100px !important;
+
+}
+
+.modal-content {
+    background-color: #242026 !important;
+    border-color    : #242026 !important;
+
+}
+
+.modal-dialog {
+    color     : #fff !important;
+    text-align: center !important;
+}
+
+.modal-footer {
+    border-top: none !important;
+}
+
+.modal-header {
+    height: 40px !important;
+}

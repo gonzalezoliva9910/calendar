@@ -13,14 +13,4 @@ if ($result['code'] == 1) {
 } elseif ($result['code'] == 3) {
    header("location:../vistas/vista_sign_in.php?fallo=true");
 }
-   
-
-//     echo '<script language="javascript"> 
-// setTimeout(function whait(){
-//     location.replace("../vistas/vista_sign_in.php")
-//  },50)
-// </script>';
-
-
-?>
-
+    

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -35,10 +35,10 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                Error, ya existe una contraseña!!
+                                <b>ERROR</b> ya existe una contraseña!!
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" id="submit1" data-bs-dismiss="modal">Cerrar</button>
 
                             </div>
                         </div>
@@ -52,10 +52,10 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                Error, las contraseñas no coinciden!! 
+                            <b>ERROR</b> las contraseñas no coinciden!!
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button"  id="submit1" data-bs-dismiss="modal">Cerrar</button>
 
                             </div>
                         </div>
@@ -73,8 +73,8 @@
                                    });";
                         echo "</script>";
                     }
-                
-                     if ($_GET['fallo'] == "z" ) {
+
+                    if ($_GET['fallo'] == "z") {
                         echo "<script>";
                         echo "$(function(){
             showModal2();
@@ -85,11 +85,6 @@
 
 
                 ?>
-
-
-
-
-
                 <button id="submit">Submit</button>
                 <div class="error"></div>
                 <div id="register">
